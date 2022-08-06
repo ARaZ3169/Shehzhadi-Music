@@ -40,7 +40,7 @@ async def ping(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m_reply.edit(
-        f"<b>😂 𝙿𝙾𝙽𝙶</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳ 𝙰𝙲𝚃𝙸𝚅𝙴</b> - `{uptime}`"
+        f"<b>😂 𝙿𝙸𝙽𝙶</b> `{delta_ping * 1000:.3f} ms` \n<b>⏳ 𝙰𝙲𝚃𝙸𝚅𝙴</b> - `{uptime}`"
     )
 
 
@@ -84,9 +84,11 @@ async def help(client, m: Message):
 • {HNDLR}ʀᴇsᴜᴍᴇ - ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴏɴɢ ᴏʀ ᴠɪᴅᴇᴏ 
 • {HNDLR}ᴘᴀᴜsᴇ - ᴛᴏ ᴘᴀᴜsᴇ ᴛʜᴇ ᴘʟᴀʏʙᴀᴄᴋ ᴏғ ᴀ sᴏɴɢ ᴏʀ ᴠɪᴅᴇᴏ 
 • {HNDLR}sᴋɪᴘ - ᴛᴏ sᴋɪᴘ ᴀ sᴏɴɢ ᴏʀ ᴠɪᴅᴇᴏ 
-• {HNDLR}ᴇɴᴅ - ᴛᴏ ᴇɴᴅ ᴘʟᴀʏʙᴀᴄᴋ </b>
-• [ᶜʰᵃⁿⁿᵃˡ](https://t.me/bOOkieT)
-• [ᵈᵉᵛᵉˡᵒᵖᵉʳ](https://t.me/b00kieT)
+• {HNDLR}ᴇɴᴅ - ᴛᴏ ᴇɴᴅ ᴘʟᴀʏʙᴀᴄᴋ
+✠ ┈┅┅┅┈ ✮ ┈┅┅┅┈ ✠
+• [ᴄʜᴀɴɴᴇʟ](https://t.me/bOOkieT)
+• [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/b00kieT)
+ </b>
 """
     await m.reply(HELP)
 
@@ -96,8 +98,8 @@ async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
 <b>❤️ ʜᴇʟʟᴏ {m.from_user.mention}!
-• [ᶜʰᵃⁿⁿᵃˡ](https://t.me/bOOkieT)
-• [ᵈᵉᵛᵉˡᵒᵖᵉʳ](https://t.me/b00kieT)
+• [ᴄʜᴀɴɴᴇʟ](https://t.me/bOOkieT)
+• [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/b00kieT)
 
  </b>
 """
