@@ -86,8 +86,7 @@ async def help(client, m: Message):
 • {HNDLR}sᴋɪᴘ - ᴛᴏ sᴋɪᴘ ᴀ sᴏɴɢ ᴏʀ ᴠɪᴅᴇᴏ 
 • {HNDLR}ᴇɴᴅ - ᴛᴏ ᴇɴᴅ ᴘʟᴀʏʙᴀᴄᴋ
 ✠ ┈┅┅┅┈ ✮ ┈┅┅┅┈ ✠
-• [ᴄʜᴀɴɴᴇʟ](https://t.me/bOOkieT)
-• [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/b00kieT)
+• [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/ReaLAraz)
  </b>
 """
     await m.reply(HELP)
@@ -98,8 +97,7 @@ async def repo(client, m: Message):
     await m.delete()
     REPO = f"""
 <b>❤️ ʜᴇʟʟᴏ {m.from_user.mention}!
-• [ᴄʜᴀɴɴᴇʟ](https://t.me/bOOkieT)
-• [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/b00kieT)
+• [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/ReaLAraz)
 
  </b>
 """
